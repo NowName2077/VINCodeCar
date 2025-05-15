@@ -1,4 +1,4 @@
-import {VINData} from "./VINCode.js";
+import {VINData} from "./VINCode.mjs";
 
 document.addEventListener('DOMContentLoaded', () => {
 

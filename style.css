@@ -14,7 +14,7 @@ h2{
 }
 body {
     padding: 20px;
-    background-color: #222;
+    background-color: #8f8f8f;
 }
 
 .container{
@@ -30,6 +30,26 @@ body {
 .input-group {
     display: flex;
     gap: 10px;
+}
+
+.button {
+    padding: 12px 25px;
+    background-color: #00a9c8 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #5494B5;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
 }
 
 #vin-input {
@@ -70,6 +90,17 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+#tooltip {
+    position: absolute;
+    display: none;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    font-family: Arial;
+    pointer-events: none;
+}
+
 .result-item {
     display: flex;
     justify-content: space-between;
@@ -92,4 +123,10 @@ body {
     font-weight: 500;
     text-align: right;
     flex: 1;
+}
+
+.mapWorld{
+    width: 100dvw;
+    height: 100dvh;
+    position: absolute;
 }

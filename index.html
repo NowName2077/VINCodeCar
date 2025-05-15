@@ -6,8 +6,13 @@
     <title>Title</title>
 </head>
 <body>
+<div class="main">
+    <button class="button"><a class="link" href="index.html">Search</a></button>
+    <button class="button"><a class="link" href="map.html" >Map</a></button>
+</div>
+
 <div class="container">
-    <h1>VIN Decoder</h1>
+    <h1>VIN Search</h1>
     <div class="input-group">
         <input type="text" id="vin-input">
         <button id="search-vin">Search</button>
@@ -64,6 +69,7 @@
         <span id="driveType" class="value">-</span>
     </div>
 </div>
+<script type="module" src="validatorCountry.js"></script>
 <script type="module" src="script.js"></script>
 </body>
 </html>
